@@ -1,0 +1,37 @@
+{
+  "name": "creator-os",
+  "version": "2046.1.0",
+  "description": "The 100B Content Pattern Vector Index & Neural Video Intelligence Engine (Year 2046 MAX Spec)",
+  "main": "core/src/hook_analyzer.js",
+  "type": "module",
+  "bin": {
+    "creator-os": "./core/src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test test/test_creator.js",
+    "start": "node core/src/server.js",
+    "mcp": "node core/src/mcp.js"
+  },
+  "keywords": [
+    "youtube",
+    "creator-economy",
+    "video-analytics",
+    "retention-curve",
+    "hook-generator",
+    "thumbnail-saliency",
+    "mcp-server",
+    "content-intelligence",
+    "100b-dataset",
+    "2046-max"
+  ],
+  "author": "Amit Sharma <amitsharma9976@gmail.com> (https://github.com/1nsharma)",
+  "license": "Apache-2.0",
+  "homepage": "https://1nsharma-labs.github.io/creator-os/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1nsharma-labs/creator-os.git"
+  },
+  "bugs": {
+    "url": "https://github.com/1nsharma-labs/creator-os/issues"
+  }
+}
